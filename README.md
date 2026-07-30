@@ -141,26 +141,21 @@ The laboratory database compiles cyclic and monotonic triaxial information for t
 
 ## Supplementary Materials
 
-The supplementary figures and the complete supporting document are available in the:
-
-[`Supplementary_Materials`](Supplementary_Materials/) directory.
+The supplementary figures and the complete supporting document are available in the [`Supplementary_Materials`](Supplementary_Materials/) directory.
 
 The directory contains:
 
-- [`Supplementary_Materials_GTENG-15418.pdf`](Supplementary_Materials/Supplementary_Materials_GTENG-15418.pdf)  
-  Complete supplementary document containing Supplemental Figures S1 and S2.
+- [`Supplementary Materials GTENG-15418.pdf`](Supplementary_Materials/Supplementary%20Materials%20GTENG-15418.pdf)  
+  Complete supplementary document containing Supplemental Figures S1 and S2 and their corresponding captions.
 
 - [`Figure_S1.png`](Supplementary_Materials/Figure_S1.png)  
-  Browser-friendly preview of Supplemental Figure S1.
-
-- [`Figure_S1.tiff`](Supplementary_Materials/Figure_S1.tiff)  
-  High-resolution version of Supplemental Figure S1.
+  Supplemental Figure S1 in a browser-friendly image format.
 
 - [`Figure_S2.png`](Supplementary_Materials/Figure_S2.png)  
-  Browser-friendly preview of Supplemental Figure S2.
+  Supplemental Figure S2 in a browser-friendly image format.
 
-- [`Figure_S2.tiff`](Supplementary_Materials/Figure_S2.tiff)  
-  High-resolution version of Supplemental Figure S2.
+- [`README.txt`](Supplementary_Materials/README.txt)  
+  Brief description of the supplementary files.
 
 ### Supplemental Figure S1
 
