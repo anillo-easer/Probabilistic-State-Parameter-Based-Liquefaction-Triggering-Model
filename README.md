@@ -154,9 +154,6 @@ The directory contains:
 - [`Figure_S2.png`](Supplementary_Materials/Figure_S2.png)  
   Supplemental Figure S2 in a browser-friendly image format.
 
-- [`README.txt`](Supplementary_Materials/README.txt)  
-  Brief description of the supplementary files.
-
 ### Supplemental Figure S1
 
 ![Supplemental Figure S1](Supplementary_Materials/Figure_S1.png)
