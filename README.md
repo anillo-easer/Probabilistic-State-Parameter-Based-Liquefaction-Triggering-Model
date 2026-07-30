@@ -33,14 +33,11 @@ The workflow produces depth-dependent estimates of the factor of safety, **FS**,
 
 This package reproduces the CPT-based probabilistic workflow used in the liquefaction-triggering study.
 
-The cyclic resistance relationship, **CRR(ψ)**, is combined with Monte Carlo uncertainty propagation to calculate:
+Using a depth-resolved CPT sounding as input, the workflow derives the relevant CPT-based variables and combines the cyclic resistance relationship, **CRR(ψ)**, with Monte Carlo uncertainty propagation to calculate:
 
-- Cone resistance, **q<sub>c</sub>**.
-- Friction ratio, **R<sub>f</sub>**.
 - Soil behavior type index, **I<sub>c,RW</sub>**.
 - State parameter, **ψ**.
 - Cyclic resistance ratio, **CRR(ψ)**.
-- Factor of safety, **FS**.
 - Probability of liquefaction, **P<sub>L</sub>**.
 
 All results are presented as a function of depth.
