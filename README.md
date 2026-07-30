@@ -100,10 +100,6 @@ Run the main R script after defining the working directory and the required inpu
 
 ## Output
 
-The model generates the following graphical output:
-
-[`CPT_profile_panels.png`](CPT_profile_panels.png)
-
 The output file is saved in the working directory and presents depth profiles of:
 
 - Cone resistance, **q<sub>c</sub>**.
