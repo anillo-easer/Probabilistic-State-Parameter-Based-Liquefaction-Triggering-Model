@@ -146,13 +146,10 @@ The supplementary figures and the complete supporting document are available in 
 The directory contains:
 
 - [`Supplementary Materials GTENG-15418.pdf`](Supplementary_Materials/Supplementary%20Materials%20GTENG-15418.pdf)  
-  Complete supplementary document containing Supplemental Figures S1 and S2 and their corresponding captions.
 
 - [`Figure_S1.png`](Supplementary_Materials/Figure_S1.png)  
-  Supplemental Figure S1 in a browser-friendly image format.
 
 - [`Figure_S2.png`](Supplementary_Materials/Figure_S2.png)  
-  Supplemental Figure S2 in a browser-friendly image format.
 
 ### Supplemental Figure S1
 
