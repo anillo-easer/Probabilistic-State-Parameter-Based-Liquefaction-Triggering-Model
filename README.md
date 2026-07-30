@@ -15,13 +15,13 @@ This repository contains the software, data, and documentation associated with t
 
 **Authors:** Pedro Reyes, Gonzalo Montalva, Vicente San Martín, and Robb Moss.
 
-The proposed framework combines a laboratory-derived cyclic resistance model, **CRR(ψ)**, with Monte Carlo propagation of:
+The proposed framework combines a laboratory-derived cyclic resistance model **CRR(ψ)**, with Monte Carlo propagation of:
 
-- CPT-derived state parameter, **ψ**, estimated using a Plewes-type procedure.
-- Probabilistic seismic demand, **CSR**.
+- CPT-derived state parameter **ψ**, estimated using a Plewes-type procedure.
+- Probabilistic seismic demand **CSR**.
 - Laboratory-to-field stress-path correction from cyclic triaxial to direct simple shear (DSS) conditions..
 
-The workflow produces depth-dependent estimates of the factor of safety, **FS**, and the probability of liquefaction, **P<sub>L</sub>**.
+The workflow produces depth-dependent estimates of the factor of safety, **F<sub>S</sub>**, and the probability of liquefaction, **P<sub>L</sub>**.
 
 ---
 
