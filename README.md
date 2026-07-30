@@ -19,7 +19,7 @@ The proposed framework combines a laboratory-derived cyclic resistance model, **
 
 - CPT-derived state parameter, **ψ**, estimated using a Plewes-type procedure.
 - Probabilistic seismic demand, **CSR**.
-- Model and input uncertainties.
+- Laboratory-to-field stress-path correction from cyclic triaxial to direct simple shear (DSS) conditions..
 
 The workflow produces depth-dependent estimates of the factor of safety, **FS**, and the probability of liquefaction, **P<sub>L</sub>**.
 
