@@ -1,23 +1,59 @@
-# Probabilistic-State-Parameter-Based-Liquefaction-Triggering-Model
+# Probabilistic State Parameter-Based Liquefaction Triggering Model
 
-Probabilistic State Parameter-Based Liquefaction Triggering Model, software, data, and documentation
+**Software, data, and documentation for a probabilistic liquefaction-triggering model formulated in state-parameter space.**
 
-This repository comprises the information used in the article: "Probabilistic State Parameter-Based Liquefaction Triggering Model." by Pedro Reyes, Gonzalo Montalva, Vicente San Martín, and Robb Moss submitted to the Journal of Geotechnical and Geoenvironmental Engineering (ASCE).
+> **Publication status:** Accepted for publication in the  
+> *ASCE Journal of Geotechnical and Geoenvironmental Engineering*.
 
-Liquefaction Triggering Model (CPT_to_PL.R)
-This package reproduces the CPT-based probabilistic workflow used in our liquefaction triggering study. Resistance CRR(ψ) is combined with Monte Carlo propagation of the CPT-derived state parameter ψ (Plewes-type) and probabilistic seismic demand CSR to compute PL versus depth. 
+---
 
-How to use it:
-1.	Set the working directory to the folder that contains: CPT.xlsx, CRR_model.RData, CSR_model.RData, and PSI_uncertainty.RData.
-Example: setwd("C:/Users/X/Downloads/CPT_to_PL")
-2.	Edit the following inputs: GWT (m), amax, Mw, n_mc, and (optional) K0_user, Mtc_user, a_ratio_user.
-3.	Run the script.
+## Overview
 
-Output: CPT_profile_panels.png will be saved in the same folder, showing q_c (MPa), R_f (%), I_(c,RW), ψ, CRR(ψ), P_L versus depth.
+This repository contains the software, data, and documentation associated with the article:
 
-Laboratory database (Lab_Tx_Database_2026.xlsx)
-The file contains the database comprising laboratory cyclic and monotonic triaxial test results and associated metadata used to calibrate the model presented in the manuscript.
-The database includes: the summary table reported in the article with the parameters used in the study; CSL (Critical State Line) and LRC (liquefaction resistance curves) data used for calibration; one worksheet per material, containing the individual test results for that material.
+***“Probabilistic State Parameter-Based Liquefaction Triggering Model”***
 
-Acknowledgment
-This study was supported by Chile’s National Agency for Research and Development (ANID) through the BECAS/MAGÍSTER NACIONAL program (Grant 22240930) and the Anillo EASER Evolution Assessment of Seismic Risk (Grant ACT240044). The authors also thank the Geotechnical Group at the Universidad de Concepción, Chile.
+**Authors:** Pedro Reyes, Gonzalo Montalva, Vicente San Martín, and Robb Moss.
+
+The proposed framework combines a laboratory-derived cyclic resistance model, **CRR(ψ)**, with Monte Carlo propagation of:
+
+- CPT-derived state parameter, **ψ**, estimated using a Plewes-type procedure.
+- Probabilistic seismic demand, **CSR**.
+- Model and input uncertainties.
+
+The workflow produces depth-dependent estimates of the probability of liquefaction, **P<sub>L</sub>**.
+
+---
+
+## Liquefaction Triggering Model
+
+### Main file
+
+[`CPT_to_PL.zip`](CPT_to_PL.zip)
+
+This package reproduces the CPT-based probabilistic workflow used in the liquefaction-triggering study.
+
+The cyclic resistance relationship, **CRR(ψ)**, is combined with Monte Carlo uncertainty propagation to calculate:
+
+- Cone resistance, **q<sub>c</sub>**.
+- Friction ratio, **R<sub>f</sub>**.
+- Soil behavior type index, **I<sub>c,RW</sub>**.
+- State parameter, **ψ**.
+- Cyclic resistance ratio, **CRR(ψ)**.
+- Probability of liquefaction, **P<sub>L</sub>**.
+
+All results are presented as a function of depth.
+
+---
+
+## How to Use the Model
+
+### 1. Prepare the working directory
+
+Set the working directory to the folder containing the following files:
+
+```text
+CPT.xlsx
+CRR_model.RData
+CSR_model.RData
+PSI_uncertainty.RData
